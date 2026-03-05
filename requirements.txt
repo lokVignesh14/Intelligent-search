@@ -1,0 +1,111 @@
+# =========================================================
+# Core Data Science & ML
+# =========================================================
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+statsmodels==0.14.4
+joblib==1.3.2
+pyarrow==15.0.0
+
+# =========================================================
+# Advanced ML / Tree Models (AI Pricing Engine)
+# =========================================================
+xgboost==2.0.3
+lightgbm==4.3.0
+
+# =========================================================
+# Deep Learning (Existing – Kept)
+# =========================================================
+tensorflow==2.16.1
+tf-keras
+torch==2.3.1
+torchaudio==2.3.1
+
+# =========================================================
+# Visualization & Analytics
+# =========================================================
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+
+# =========================================================
+# LLM / AI Tooling (Existing + Intelligent Search)
+# =========================================================
+transformers==4.46.3
+langchain==0.3.27
+langchain-google-genai==2.0.10
+langchain-openai
+langchain-community
+langchain-groq
+langchain-text-splitters
+google-generativeai==0.8.5
+openai
+langdetect==1.0.9
+fuzzywuzzy==0.18.0
+rapidfuzz==3.9.4
+openai-whisper==20250625
+sentence-transformers
+faiss-cpu
+pypdf
+
+# =========================================================
+# Backend API (FASTAPI – Core Service)
+# =========================================================
+fastapi==0.115.2
+uvicorn[standard]==0.30.6
+gunicorn
+python-multipart==0.0.12
+pydantic==2.9.2
+pydantic-settings==2.6.0
+
+# =========================================================
+# Database (PostgreSQL – ERP Integration)
+# =========================================================
+sqlalchemy==2.0.34
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# =========================================================
+# HTTP / API Clients (OTA / Competitors)
+# =========================================================
+requests==2.32.3
+httpx==0.27.2
+
+# =========================================================
+# App / UI (Existing)
+# =========================================================
+streamlit==1.37.1
+
+# =========================================================
+# Utilities
+# =========================================================
+python-dotenv==1.0.1
+fsspec==2024.2.0
+pillow==10.4.0
+opencv-python==4.10.0.84
+networkx==3.3
+openpyxl==3.1.5
+PyYAML==6.0.2
+
+# =========================================================
+# Date / Time / Scheduling (Auto Pricing Jobs)
+# =========================================================
+python-dateutil==2.9.0.post0
+pytz==2024.1
+APScheduler==3.10.4
+
+# =========================================================
+# Type, gRPC, Serialization
+# =========================================================
+typing-extensions>=4.13.0
+grpcio==1.62.2
+grpcio-status==1.62.2
+protobuf==4.25.5
+
+# =========================================================
+# Audio (Existing – Kept)
+# =========================================================
+sounddevice>=0.4.0
+soundfile>=0.12.1
